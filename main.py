@@ -1,2 +1,2 @@
-List = ["hi", "hello", "bye", "goodbye"]
-for iN, value in enumerate(List):
+print ("hello world ")
+print ("hello world 2")
