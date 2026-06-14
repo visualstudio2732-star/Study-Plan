@@ -2,6 +2,13 @@ class Notes:
     def __init__(self,title,content):
         self.__title = title
         self.__content = content
-Note1 = Notes("Note 1","This is the content of note 1")
-print (Note1._Notes__title)
-print (Note1._Notes__content)
+
+
+    def get_title(self):
+        return self.__title
+    def get_content(self):
+        return self.__content
+Note1 = Notes("Note 1","This is the content of note 1") 
+
+print(Note1.get_title())
+print(Note1.get_content())
